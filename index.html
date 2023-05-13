@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname.</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -24,12 +24,12 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">sobre mi</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">proyectos</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contacto</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>yourname.</h1>
-        <h2>Software Developer / Photographer / Human</h2>
+        <h1>Nadia Paola Ferro Gallegos</h1>
+        <h2>Ingeniera en Tecnologías Computacionales</h2>
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
@@ -37,61 +37,125 @@
         </div>
         <table>
                 <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-github"></i></a></td>
                 </tr>
         </table>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
+        <h1>Proyectos</h1>
         <section>
-            <h2>work title</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            <h2>La carrera del Fuego</h2>
+            <div class="content-wrapper">
+                <div class="text">
+                    <p>
+                        Es un videojuego 2D de tipo endless runner que desarrollé durante un game jam de 48 horas. En este juego, te adentras en la historia del tlacuache, un animal legendario de la mitología mesoamericana que otorgó el fuego a los humanos. En el juego, asumes el papel del tlacuache y debes correr a través de un paisaje mientras proteges la llama del fuego que llevas en tu cola.
+                    </p>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+                    </div>
+                    <button class="btn_two" onclick="window.open('https://westreno.itch.io/la-carrera-del-fuego', '_blank')">Visitar Videojuego</button>
+                </div>
+                <div class="image">
+                    <img src="images/tlacuache.jpg" alt="La carrera del Fuego">
+                </div>
             </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
+        </section>
+        <section>
+            <h2>HYPERPUNK</h2>
+            <div class="content-wrapper">
+                <div class="text">
+                    <p>
+                        Es un juego de ritmo estilo Guitar Hero que desarrollé durante el ONU Mujeres Jam. En este juego, te adentras en la historia de una princesa que desafía los estereotipos de los cuentos de hadas tradicionales. En lugar de ser rescatada por un príncipe encantador de el ultimo piso de la torre mas alta, nuestra princesa encuentra su propio camino utilizando el poder de la música punk.
+                    </p>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+                    </div>
+                    <button class="btn_two" onclick="window.open('https://queenofwands.itch.io/hyperpunk', '_blank')">Visitar Videojuego</button>
+                </div>
+                <div class="image">
+                    <img src="images/punk.png" alt="HYPERPUNK">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Jerbo</h2>
+            <div class="content-wrapper">
+                <div class="text">
+                    <p>
+                        Es un juego de estilo Plataformero. En este juego, te adentras en la historia de Jerbo una rata que busca tapones para odios para el bienestar de sus hijos que sufren mucho por los ruidos de la ciudad.
+                    </p>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;MySQL</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;XAMPP</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;PHP</div>
+                    </div>
+                    <button class="btn_two" onclick="window.open('https://github.com/Nadia145/Jerbo', '_blank')">Visitar Proyecto</button>
+                    <button class="btn_two" onclick="window.open('https://github.com/YrandaNova/JerboWebPage', '_blank')">Visitar Pagina Web</button>
+                    <button class="btn_two" onclick="window.open('https://www.youtube.com/watch?v=-D-hIKdBtxU', '_blank')">Visitar Video</button>
+                </div>
+                <div class="image">
+                    <img src="images/jerbo.jpg" alt="Jerbo">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Tiz Alerta</h2>
+            <div class="content-wrapper">
+                <div class="text">
+                    <p>
+                        Es una aplicacion desarrollada para el Municipio de Atizapan de Zaragoza. El objetivo de la aplicacion era alertar a las personas que residen en Atizapan y a las personas que trabajan o visitan atizapan de los peligros que pudiera haber, como Sismos, Clima y otros inconvenintes.
+                    </p>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;Android Studio</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Kotlin</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;GitHub</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;PHP</div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/tizAlerta.jpg" alt="Tiz Alerta">
+                </div>
+            </div>
         </section>
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>about.</h1>
+            <h1>Sobre mi</h1>
             <section>
-                <h2>about me</h2>
+                <h2>Sobre mi</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Mi nombre es Nadia Paola Ferro Gallegos, tengo 20 años y soy un estudiante de la carrera de Ingeniera en Tecnologias Computacionales en el Intituto Tecnologico y de Estudios Superiores de Monterrey. Soy una apasionada de los videojuegos y los idiomas, me considero una persona creativa y gran autodidacta. En mi tiempo libre me gusta jugar videojuegos, bailar, locución y aprender sobre la sintesis de audio las cuales son cosas de las que sigo aprendiendo y sigo desarrollando.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </section>
-            <section>
-                <h2>skills</h2>
-                <p>
-                    i do eveything ;)
+                    Mi idioma nativo es el Español, actualmente tengo un nivel intermedio en Ingles y Japones y tengo conocimientos basicos del portuges. Mi sueño es convertirme en poliglota, me gustaria aprender mas idiomas asiaticos, como el chino y el coreano y tambien me quiero convertir en desarrolladora de videojuegos. Por lo que quiero aprender lo mayormente posible sobre una gran variedad de temas. Mi trabajo ideal me permitira trabajar en proyectos relacionados con la industria de los videojuegos en los que pueda conectar con las personas para poder brindarles una grata experiencia y al mismo tiempo aprender muchisimas habilidades que me permitan crecer como persona y como programadora.
                 </p>
             </section>
         </div>
-          <div id="contact_container" class="container">
+        <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>contact.</h1>
+            <h1>Contacto</h1>
             <section>
-                <h2>contact me</h2>
+                <h2>Contactame</h2>
                 <p>
                     <form>
-                        <input type="text" placeholder="name" required>
+                        <input type="text" placeholder="nombre" required>
                         <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
-                    </form> 
+                        <textarea placeholder="tu mensaje" required rows="5"></textarea><br>
+                        <button class="btn_one">enviar</button>
+                    </form>
                 </p>
             </section>
         </div>
